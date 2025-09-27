@@ -1,0 +1,59 @@
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.navbar {
+    background-color: palevioletred;
+    text-align: center;
+    height: 50px; 
+    
+}
+
+.navbar h1 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-section {
+    background-color: black;
+    color: white;
+    width: 230px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.card-section__title {
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.card-section__desc {
+    border: solid white 2px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 190px;
+    height: 190px;
+    margin-left: 20px;
+}
+
+.card-section__desc p {
+    margin: 5px;
+    padding: 2px;
+}
